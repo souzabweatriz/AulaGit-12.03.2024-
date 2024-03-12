@@ -1,11 +1,12 @@
-let numeroaleatorio = (Math.floor(Math.random(3) * 100));
+let numeroaleatorio = (Math.floor(Math.random(1) * 100));
 
-let pessoa = (Math.floor(Math.random(3) * 100));
+let pessoa = (Math.floor(Math.random(1) * 100));
 
-let tentativa = 15;
+
+let tentativa = 0;
 
 while( numeroaleatorio != pessoa ){
-    pessoa = Math.floor(Math.random(3) * 100);
+    pessoa = Math.floor(Math.random(1) * 100);
     if (pessoa > numeroaleatorio){
     console.log("Tente novamente, o numero secreto é menor", pessoa);
 } else if (pessoa < numeroaleatorio) {
