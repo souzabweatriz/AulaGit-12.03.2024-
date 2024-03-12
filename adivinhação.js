@@ -1,17 +1,17 @@
-let aleatorio = (Math.floor(Math.random(1) * 100));
+let numeroaleatorio = (Math.floor(Math.random(1) * 100));
 
 let pessoa = (Math.floor(Math.random(1) * 100));
 
 let tentativa = 0;
 
-while( aleatorio != pessoa ){
+while( numeroaleatorio != pessoa ){
     pessoa = Math.floor(Math.random(1) * 100);
-    if (pessoa > aleatorio){
+    if (pessoa > numeroaleatorio){
     console.log("Tente novamente, o numero secreto é menor", pessoa);
-} else if (pessoa < aleatorio) {
+} else if (pessoa < numeroaleatorio) {
     console.log("Tente novamente, o numero secreto é maior", pessoa); 
 } else {
-        console.log("Parabéns, você acertou o numero secreto" + aleatorio)
+        console.log("Parabéns, você acertou o numero secreto" + numeroaleatorio)
  }
 tentativa++
 }
