@@ -3,7 +3,7 @@ let numeroaleatorio = (Math.floor(Math.random(1) * 100));
 let pessoa = (Math.floor(Math.random(1) * 100));
 
 
-let tentativa = 8;
+let tentativa = 4;
 
 while( numeroaleatorio != pessoa ){
     pessoa = Math.floor(Math.random(1) * 100);
